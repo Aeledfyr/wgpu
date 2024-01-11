@@ -57,6 +57,12 @@ const EXAMPLES: &[ExampleDesc] = &[
         webgpu: true,
     },
     ExampleDesc {
+        name: "multidraw_crash",
+        function: wgpu_examples::multidraw_crash::main,
+        webgl: true,
+        webgpu: true,
+    },
+    ExampleDesc {
         name: "hello_windows",
         function: wgpu_examples::hello_windows::main,
         webgl: false,  // Native only example
